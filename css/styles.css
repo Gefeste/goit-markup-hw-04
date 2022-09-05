@@ -154,7 +154,7 @@ img {
   height: 600px;
   background-image: linear-gradient(to right, #2f303a66, #2f303a66), url(../images/bcgimg.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
 }
 
 h1 {
@@ -192,7 +192,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
   height: 120px;
   background-color: var(--bcg-btn-cl);
   border-radius: 4px;
@@ -297,6 +296,7 @@ h1 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--main-cl);
 }
 
 .team h3 {
@@ -325,7 +325,6 @@ h1 {
 .our-clients-list {
   display: flex;
   gap: 30px;
-  justify-content: center;
 }
 
 .clients-link {
@@ -455,7 +454,7 @@ address {
   text-transform: uppercase;
 
   color: var(--main-cl);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Portfolio.html */
@@ -514,6 +513,10 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.box-item {
+  display: block;
 }
 
 .box-item:hover,
